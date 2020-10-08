@@ -12,6 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+/* .disp-none {
+  display: none;
+} */
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +29,112 @@
 
 .App-link {
   color: #61dafb;
+}
+#filesection {
+  margin-top: 25px;
+}
+/* .dispfile {
+  float: left;
+  background-color: rgb(225, 231, 240);
+  width: fit-content;
+  padding: 12px 19px 12px 19px;
+  margin-right: 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+} */
+.dispfile {
+  float: left;
+  padding: 12px 20px 12px 18px;
+  background: #e1e7f0 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #383838;
+}
+.dispfilename {
+  min-width: 350px;
+}
+.fleft {
+  float: left;
+  clear: both;
+}
+.btndeletefile {
+  outline: none;
+  margin-top: 4px;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  padding: 0px;
+  font-size: 17px;
+  background-color: rgb(139, 154, 164);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.fright {
+  float: right;
+}
+.imgpadding {
+  padding: 1px;
+}
+
+.card1 {
+  /* box-shadow: 1px 1px 8px #00000029; */
+  transition: 0.3s;
+  width: 928px;
+  font-size: 18px;
+  border-radius: 7px;
+  background-color: rgb(242, 245, 249);
+
+  padding: 13px;
+}
+.react-responsive-modal-modal {
+  border-radius: 4px;
+}
+
+.btnFile {
+  cursor: pointer;
+  outline: none;
+  background: #e4ccd9 0% 0% no-repeat padding-box;
+  padding: 13px;
+  border: none;
+  margin-left: 4px;
+  border-radius: 2px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #a65782;
+  position: fixed;
+}
+/* .modalbtnfile {
+  padding: 10px !important;
+} */
+
+.attachBtn {
+  cursor: pointer;
+  outline: none;
+  width: 166px;
+  height: 56px;
+  background: #e4ccd9 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  padding: 13px;
+  border: none;
+  margin-left: 35px;
+  border-radius: 2px;
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #a65782;
+}
+.react-responsive-modal-modal {
+  max-height: 500px !important;
+  min-width: 650px;
+  /* min-height: fit-content !important; */
+  overflow: auto !important;
+}
+
+.ms-Button--primary.root-56 {
+  background: #e4ccd9 0% 0% no-repeat padding-box !important;
+  color: #a65782 !important;
 }
 
 @keyframes App-logo-spin {
