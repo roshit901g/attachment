@@ -59,6 +59,13 @@
   float: left;
   clear: both;
 }
+.fl {
+  float: left;
+}
+.fltxt {
+  padding: 15px;
+}
+
 .btndeletefile {
   outline: none;
   margin-top: 4px;
@@ -83,10 +90,10 @@
   /* box-shadow: 1px 1px 8px #00000029; */
   transition: 0.3s;
   width: 928px;
+  height: 56px;
   font-size: 18px;
   border-radius: 7px;
   background-color: rgb(242, 245, 249);
-
   padding: 13px;
 }
 .react-responsive-modal-modal {
@@ -104,7 +111,7 @@
   font-size: 20px;
   letter-spacing: 0px;
   color: #a65782;
-  position: fixed;
+  position: absolute;
 }
 /* .modalbtnfile {
   padding: 10px !important;
@@ -143,5 +150,30 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media (max-width: 742px) {
+  .fl {
+    float: none;
+    margin-bottom: 10px;
+  }
+  .attachBtn {
+    margin-left: 0px;
+  }
+  .btnFile {
+    margin-left: 0px;
+  }
+  .card1 {
+    height: 155px;
+    width: 100%;
+  }
+  #ortxt {
+    display: none;
+  }
+  .dots {
+    display: none;
+  }
+  .fltxt {
+    padding: 0px;
   }
 }
