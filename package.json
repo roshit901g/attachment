@@ -10,6 +10,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.20.0",
+    "feather-icons-react": "^0.4.1",
     "jquery": "^3.5.1",
     "msal": "^1.4.1",
     "react": "^16.13.1",

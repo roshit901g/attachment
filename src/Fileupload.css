@@ -12,9 +12,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-/* .disp-none {
-  display: none;
-} */
 
 .App-header {
   background-color: #282c34;
@@ -30,18 +27,10 @@
 .App-link {
   color: #61dafb;
 }
-#filesection {
+.filesection {
   margin-top: 25px;
 }
-/* .dispfile {
-  float: left;
-  background-color: rgb(225, 231, 240);
-  width: fit-content;
-  padding: 12px 19px 12px 19px;
-  margin-right: 20px;
-  border-radius: 3px;
-  margin-top: 20px;
-} */
+
 .dispfile {
   float: left;
   padding: 12px 20px 12px 18px;
@@ -83,14 +72,14 @@
   float: right;
 }
 .imgpadding {
-  padding: 1px;
+  margin-bottom: 13.5px;
 }
 
 .card1 {
   /* box-shadow: 1px 1px 8px #00000029; */
   transition: 0.3s;
   width: 928px;
-  height: 56px;
+  height: 83px;
   font-size: 18px;
   border-radius: 7px;
   background-color: rgb(242, 245, 249);
@@ -101,21 +90,19 @@
 }
 
 .btnFile {
+  height: 56px !important;
   cursor: pointer;
   outline: none;
-  background: #e4ccd9 0% 0% no-repeat padding-box;
-  padding: 13px;
+  background: #e4ccd9 0% 0% no-repeat padding-box !important;
+  padding: 11px;
   border: none;
   margin-left: 4px;
   border-radius: 2px;
   font-size: 20px;
   letter-spacing: 0px;
-  color: #a65782;
+  color: #a65782 !important;
   position: absolute;
 }
-/* .modalbtnfile {
-  padding: 10px !important;
-} */
 
 .attachBtn {
   cursor: pointer;
@@ -152,7 +139,7 @@
     transform: rotate(360deg);
   }
 }
-@media (max-width: 742px) {
+@media (max-width: 1305px) {
   .fl {
     float: none;
     margin-bottom: 10px;
@@ -164,7 +151,7 @@
     margin-left: 0px;
   }
   .card1 {
-    height: 155px;
+    height: 186px;
     width: 100%;
   }
   #ortxt {
